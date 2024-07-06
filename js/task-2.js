@@ -38,6 +38,19 @@ const getUsersWithFriend = (users, friendName) =>
 ];
 
 console.log(getUsersWithFriend(allUsers, "Briana Decker")); 
+
+
+
+const user = {
+  username: "Poly",
+  showThis() {
+    console.log(this);
+  }
+};
+
+user.showThis();
+
+
 // [
 //   {
 //     name: "Sharlene Bush",
